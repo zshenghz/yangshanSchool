@@ -27,7 +27,7 @@ public class MsmServiceImpl implements MsmService {
 
         //这里需要修改id和密钥
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4G5Rg7V3dxMK1VJMRJtk", "I0kQ6pztRjaGvHprYAlsliYggXXNg0");
+                DefaultProfile.getProfile("default", "阿里云id", "阿里云密钥");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定的参数
